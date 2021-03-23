@@ -38,9 +38,10 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
-	"reflect"
 	"regexp"
 	"sort"
+	
+	reflect "github.com/goccy/go-reflect"
 )
 
 func csvToQualifiedActions(artifacts string) []string {
